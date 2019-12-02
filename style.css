@@ -1,0 +1,165 @@
+#logo {
+  display: inline-block;
+  height: 55px;
+  width: 170px;
+}
+
+#head {
+  background-color: #4c8930;
+  text-align: right;
+  position: relative;
+  z-index: 3;
+  font-size: 90%;
+}
+
+.wrap {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.mainpic{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_1280.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  /*width: 1900px;*/
+  height: 620px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.company-img{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.linkedin.com/media-proxy/ext?w=600&h=315&hash=tOp5GNbQLqiJ1E1d4797r77k22Y%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6ohh0cxw5s7auFpE798VdLSoPYES7iWDv7p4TKPym4PoTBKu38u1hFe3oDwlBhLuv6Q2a3E8K8eY-6e9kijoi2cZa2YgQDak9kgTEbuIc6Ok0l4cXwXbLyOHoZ1rkAa3_vYeGxNQJnNXwzpLnQKYSLLwxAgA_ZFY-5SJgVWOEzpIcOxQ8B_svHEM84yYg-nzpWxFey97z-PzY");
+  /* Set a specific height */
+  /*min-height: 500px;*/
+  width: 360px;
+  height: 200px;
+  flex: none;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  padding-top: 76px; 
+}
+
+.products-img{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.lianatech.de/media/international-pictures/de/news/digital-customer-journey.jpg");
+  /* Set a specific height */
+  /*min-height: 500px;*/
+  width: 360px;
+  height: 200px;
+  flex: none;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  padding-top: 76px;
+}
+
+.contact-us-img{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXY_t5Q1-dHSri_aFp5z73b9Mltavw6cQmoWH8qRkMg-CcpXX1&s");
+  /* Set a specific height */
+  /*min-height: 500px;*/
+  width: 360px;
+  height: 200px;
+  flex: none;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  padding-top: 76px; 
+}
+
+.company:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#main{
+  position: relative;
+}
+
+.main-text{
+  font-size: 54px; 
+  color: #ffffff; 
+  padding-top: 100px;
+}
+
+.learn {
+  display: inline-block;
+  background-color: #4c8930;
+  color: #FFFFFF;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
+
+.count{
+  font-size: 54px;
+}
+
+#my-icon{
+  font-size:72px;
+  color:#4c8930;
+  text-shadow:2px 2px 4px #ffffff;
+}
+
+.news-container{
+  background-color: lightgray; 
+  background-size: cover; 
+  padding-bottom: 20px;
+}
+
+.news{  
+  /* Set a specific height */
+  width: 360px;
+  flex: auto;
+  margin-right: 20px;  
+  padding: 10px;
+  background-color: white;
+  outline: solid 2px #4c8930;
+  transition: outline 0.6s linear; 
+}
+
+.news:hover { outline-width: 5px; 
+}
+
+#footer-nav {
+  font-size: small;
+}
+
+.text-light:hover{
+  text-decoration: none;
+}
+
+.my-btn{
+  background-color: #4c8930; 
+  color: white;
+}
+
+
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
